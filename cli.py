@@ -3,7 +3,7 @@ import argparse
 from clearvoice import ClearVoice
 
 
-DEFAULT_INPUT = "clearvoice/samples/input.wav"
+DEFAULT_INPUT = "samples/input.wav"
 DEFAULT_OUTPUT = "./output"
 
 

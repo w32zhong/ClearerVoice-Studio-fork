@@ -56,7 +56,7 @@ Clearvoice relies on FFmpeg for audio format conversion. If you're only working 
 
     ``` sh
     git clone https://github.com/modelscope/ClearerVoice-Studio.git
-    cd ClearerVoice-Studio/clearvoice
+    cd ClearerVoice-Studio
     pip install --editable .
     ```
 2. **In your Python code:**
@@ -67,20 +67,20 @@ Clearvoice relies on FFmpeg for audio format conversion. If you're only working 
 3. **Demo script**
 
     ``` sh
-    cd ClearerVoice-Studio/clearvoice
+    cd ClearerVoice-Studio
     python demo.py
     ```
 
     or 
 
     ``` sh
-    cd ClearerVoice-Studio/clearvoice
+    cd ClearerVoice-Studio
     python demo_with_more_comments.py
     ```
 
     or
     ``` sh
-    cd ClearerVoice-Studio/clearvoice
+    cd ClearerVoice-Studio
     python demo_Numpy2Numpy.py
     ```
 - You may activate each demo case by setting to True in `demo.py`, `demo_with_more_comments.py`, and `demo_Numpy2Numpy.py`.
